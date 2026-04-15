@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= device-width, initial-scale=1.0">
+  <title>Pluto Dashboard</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="pluto.css">
+</head>
+
+<body>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-profile">
+      <div class="profile-avatar">
+        <img src="Images/image1.jpg" alt="Bueno David">
+      </div>
+      <div class="profile-info">
+        <div class="name">Bueno David</div>
+        <div class="status">Online</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section-label">General</div>
+
+    <a class="nav-item active" href="">
+      <i class="fas fa-th-large"></i> Dashboard
+      <i class="fas fa-chevron-down chevron"></i>
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-sliders-h"></i> Widgets
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-gem"></i> Elements
+      <i class="fas fa-chevron-down chevron"></i>
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-table"></i> Tables
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-th"></i> Apps
+      <i class="fas fa-chevron-down chevron"></i>
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-tags"></i> Pricing Tables
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-paper-plane"></i> Contact
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-copy"></i> Additional Pages
+      <i class="fas fa-chevron-down chevron"></i>
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-map-marked-alt"></i> Map
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-chart-bar"></i> Charts
+    </a>
+    <a class="nav-item" href="">
+      <i class="fas fa-cog"></i> Settings
+    </a>
+  </aside>
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <i class="fas fa-bars topbar-hamburger"></i>
+    <div class="topbar-logo">
+      <div class="logo-icon">🪐</div>
+      Account Statistics
+    </div>
+    <div class="topbar-right">
+      <div class="topbar-icon-btn">🔔
+        <i class="fas fa-bell"></i>
+        <span class="badge">2</span>
+      </div>
+      <div class="topbar-icon-btn">❔
+        <i class="fas fa-question-circle"></i>
+      </div>
+      <div class="topbar-icon-btn">📩
+        <i class="fas fa-envelope"></i>
+        <span class="badge">3</span>
+      </div>
+      <div class="topbar-user">
+        <div class="topbar-user-avatar">
+          <img src="Images/image1.jpg" alt="">
+        </div>
+        <span class="topbar-user-name">Bueno David</span>
+        <i class="fas fa-chevron-down" style="color:#fff;font-size:10px;opacity:0.8;margin-left:2px;"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+    <div class="page-content">
+      <div class="page-title">Dashboard</div>
+
+      <!-- STAT CARDS -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon orange">👤<i class="fas fa-user"></i></div>
+          <div class="stat-value">2500</div>
+          <div class="stat-label">Welcome</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon blue">🕜<i class="fas fa-clock"></i></div>
+          <div class="stat-value">123.50</div>
+          <div class="stat-label">Average Time</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon teal">🌥️<i class="fas fa-cloud-download-alt"></i></div>
+          <div class="stat-value">1,805</div>
+          <div class="stat-label">Collections</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon pink">🗨️<i class="fas fa-comment-dots"></i></div>
+          <div class="stat-value">54</div>
+          <div class="stat-label">Comments</div>
+        </div>
+      </div>
+
+      <!-- SOCIAL CARDS -->
+      <div class="social-grid">
+        <div class="social-card facebook">
+          <div class="social-header"><img src="Images/facebook.svg" width="50px" style="background-color: #fff;"><i
+              class="fab fa-facebook-f"></i></div>
+          <div class="social-stats">
+            <div class="social-stat">
+              <div class="val">35k</div>
+              <div class="lbl">Friends</div>
+            </div>
+            <div class="social-stat">
+              <div class="val">128</div>
+              <div class="lbl">Feeds</div>
+            </div>
+          </div>
+        </div>
+        <div class="social-card linkedin">
+          <div class="social-header"><img src="Images/linkedin.svg" width="50px" style="background-color: #fff;"><i
+              class="fab fa-twitter"></i></div>
+          <div class="social-stats">
+            <div class="social-stat">
+              <div class="val">584k</div>
+              <div class="lbl">Followers</div>
+            </div>
+            <div class="social-stat">
+              <div class="val">978</div>
+              <div class="lbl">Tweets</div>
+            </div>
+          </div>
+        </div>
+        <div class="social-card twitter">
+          <div class="social-header"><img src="Images/twitter.svg" width="50px"><i class="fab fa-linkedin-in"></i></div>
+          <div class="social-stats">
+            <div class="social-stat">
+              <div class="val">758+</div>
+              <div class="lbl">Contacts</div>
+            </div>
+            <div class="social-stat">
+              <div class="val">365</div>
+              <div class="lbl">Feeds</div>
+            </div>
+          </div>
+        </div>
+        <div class="social-card google">
+          <div class="social-header"><img src="Images/youtube.svg" width="50px"><i class="fab fa-google-plus-g"></i>
+          </div>
+          <div class="social-stats">
+            <div class="social-stat">
+              <div class="val">450</div>
+              <div class="lbl">Followers</div>
+            </div>
+            <div class="social-stat">
+              <div class="val">57</div>
+              <div class="lbl">Circles</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--chart section-->
+      <img src="Images/chart.png" width="1276.85px" height="500px" alt="chart-graph">
+
+      <!--recent followers-->
+      <div class="recent-followers">
+
+        <h2>Recent Followers</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Follower Name</th>
+              <th>Date</th>
+              <th>Social Media</th>
+              <th>Status</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Joe Smith</td>
+              <td>2026-03-20</td>
+              <td>Instagram</td>
+              <td style="color: #48bb78;">Active</td>
+            </tr>
+            <tr>
+              <td>Amina Bello</td>
+              <td>2026-03-20</td>
+              <td>Facebook</td>
+              <td style="color: #e4002e;">Inactive</td>
+            </tr>
+            <tr>
+              <td>Kevin Lee</td>
+              <td>2026-03-20</td>
+              <td>Tiktok</td>
+              <td style="color: #E7A94E;">Pending</td>
+            </tr>
+            <tr>
+              <td>David Nkomo</td>
+              <td>2026-03-20</td>
+              <td>linkedin</td>
+              <td>Engaged</td>
+            </tr>
+            <tr>
+              <td>Maria Garcia</td>
+              <td>2026-03-20</td>
+              <td>Twitter</td>
+              <td style="color: #48bb78;">Active</td>
+            </tr>
+            <tr>
+              <td>Sarah Johnson</td>
+              <td>2026-03-20</td>
+              <td>Youtube</td>
+              <td style="color: #E7A94E;">Pending</td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="">Show All</a>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
